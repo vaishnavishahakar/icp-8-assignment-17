@@ -4,3 +4,48 @@ body {
     padding: 0;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.card p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.btn{
+    margin-top: 19px;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 90px;
+}
+.btn:hover{
+    background-color: #979696;
+}
