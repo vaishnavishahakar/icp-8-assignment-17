@@ -49,3 +49,42 @@ body {
 .btn:hover{
     background-color: #979696;
 }
+.parent-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.parent-container-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.upcoming-movies{
+    width: 200px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.upcoming-movies img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.upcoming-movies h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.upcoming-movies p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
